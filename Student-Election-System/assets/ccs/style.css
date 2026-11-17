@@ -1,0 +1,191 @@
+/* ==========================================
+   Student Election Management System
+   Main Stylesheet
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f6f9;
+}
+
+/* Navbar */
+
+.navbar{
+    background:#0F4C81 !important;
+}
+
+.navbar-brand{
+    color:white !important;
+    font-weight:bold;
+    font-size:24px;
+}
+
+.nav-link{
+    color:white !important;
+}
+
+/* Hero */
+
+.hero{
+    background:linear-gradient(rgba(15,76,129,.8),rgba(15,76,129,.8)),
+    url("../images/banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+    height:90vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+}
+
+.hero h1{
+    font-size:55px;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:20px;
+}
+
+/* Sidebar */
+
+.sidebar{
+
+width:250px;
+
+height:100vh;
+
+background:#0F4C81;
+
+position:fixed;
+
+}
+
+.sidebar h3{
+
+text-align:center;
+
+color:white;
+
+padding:20px;
+
+}
+
+.sidebar a{
+
+display:block;
+
+padding:15px 25px;
+
+text-decoration:none;
+
+color:white;
+
+transition:.3s;
+
+}
+
+.sidebar a:hover{
+
+background:#145b94;
+
+}
+
+/* Main Content */
+
+.main{
+
+margin-left:250px;
+
+padding:30px;
+
+}
+
+/* Cards */
+
+.card{
+
+border:none;
+
+border-radius:15px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-5px);
+
+}
+
+/* Buttons */
+
+.btn-primary{
+
+background:#0F4C81;
+
+border:none;
+
+}
+
+.btn-primary:hover{
+
+background:#0b3960;
+
+}
+
+/* Footer */
+
+footer{
+
+background:#0F4C81;
+
+color:white;
+
+padding:25px;
+
+margin-top:50px;
+
+text-align:center;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.sidebar{
+
+width:100%;
+
+height:auto;
+
+position:relative;
+
+}
+
+.main{
+
+margin-left:0;
+
+}
+
+.hero h1{
+
+font-size:35px;
+
+}
+
+}
